@@ -12,4 +12,6 @@ func main() {
 	var name float32
 	name = 90.99
 	fmt.Println(name)
+	variable := "knocked up"
+	fmt.Println(variable)
 }
