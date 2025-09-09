@@ -9,12 +9,12 @@ func main() {
 		a int = 9
 		b     = "b"
 		c bool
-		d = false
 		e string
 	)
 	c = true
-	e = "no ok"
+	e = "not ok"
+	d, f := 9, "false"
 
-	fmt.Println(a, b, c, d, e)
+	fmt.Println(a, b, c, d, e, f)
 
 }
