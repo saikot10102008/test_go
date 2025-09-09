@@ -5,16 +5,16 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-	// number addition
-	fmt.Println("Hello golang , ok")
+	var (
+		a int = 9
+		b     = "b"
+		c bool
+		d = false
+		e string
+	)
+	c = true
+	e = "no ok"
 
-	var name float32
-	name = 90.99
-	fmt.Println(name)
-	variable := "knocked up"
-	fmt.Println(variable)
-
-	fmt.Println(name, variable)
+	fmt.Println(a, b, c, d, e)
 
 }
