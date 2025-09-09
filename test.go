@@ -7,7 +7,7 @@ import (
 func main() {
 	fmt.Println("Hello, World!")
 	// number addition
-	fmt.Println("Hello golang")
+	fmt.Println("Hello golang , ok")
 
 	var name float32
 	name = 90.99
