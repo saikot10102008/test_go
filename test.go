@@ -14,4 +14,7 @@ func main() {
 	fmt.Println(name)
 	variable := "knocked up"
 	fmt.Println(variable)
+
+	fmt.Println(name, variable)
+
 }
